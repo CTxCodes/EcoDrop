@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ABA314F991C31F9B7E9BAC2 /* Pods_EcoDrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751AD1A2810736E3818A77CF /* Pods_EcoDrop.framework */; };
+		F903D948224F3FDC0082B7E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F903D947224F3FDB0082B7E9 /* GoogleService-Info.plist */; };
 		F929CE29224F15CB0080ACE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F929CE28224F15CB0080ACE3 /* AppDelegate.swift */; };
 		F929CE2B224F15CB0080ACE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F929CE2A224F15CB0080ACE3 /* ViewController.swift */; };
 		F929CE2E224F15CB0080ACE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F929CE2C224F15CB0080ACE3 /* Main.storyboard */; };
 		F929CE30224F15CE0080ACE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F929CE2F224F15CE0080ACE3 /* Assets.xcassets */; };
 		F929CE33224F15CE0080ACE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F929CE31224F15CE0080ACE3 /* LaunchScreen.storyboard */; };
+		F9E1BC43224F8A7700DB0B0C /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1BC42224F8A7700DB0B0C /* SignUPViewController.swift */; };
+		F9EF9B46224FFCF10084DA39 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EF9B45224FFCF10084DA39 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		470E8CBF724019D221F2C442 /* Pods-EcoDrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoDrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcoDrop/Pods-EcoDrop.release.xcconfig"; sourceTree = "<group>"; };
+		629443D072579E549FB5C3C0 /* Pods-EcoDrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoDrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcoDrop/Pods-EcoDrop.debug.xcconfig"; sourceTree = "<group>"; };
+		751AD1A2810736E3818A77CF /* Pods_EcoDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F903D947224F3FDB0082B7E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F929CE25224F15CB0080ACE3 /* EcoDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F929CE28224F15CB0080ACE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F929CE2A224F15CB0080ACE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		F929CE2F224F15CE0080ACE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F929CE32224F15CE0080ACE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F929CE34224F15CE0080ACE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E1BC42224F8A7700DB0B0C /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		F9EF9B45224FFCF10084DA39 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = ../StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ABA314F991C31F9B7E9BAC2 /* Pods_EcoDrop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22FF72686A046A8080E92132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				629443D072579E549FB5C3C0 /* Pods-EcoDrop.debug.xcconfig */,
+				470E8CBF724019D221F2C442 /* Pods-EcoDrop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		633346DA7A883E3F83F1FFC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				751AD1A2810736E3818A77CF /* Pods_EcoDrop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F929CE1C224F15CB0080ACE3 = {
 			isa = PBXGroup;
 			children = (
 				F929CE27224F15CB0080ACE3 /* EcoDrop */,
 				F929CE26224F15CB0080ACE3 /* Products */,
+				22FF72686A046A8080E92132 /* Pods */,
+				633346DA7A883E3F83F1FFC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +84,15 @@
 		F929CE27224F15CB0080ACE3 /* EcoDrop */ = {
 			isa = PBXGroup;
 			children = (
+				F9EF9B45224FFCF10084DA39 /* StartViewController.swift */,
 				F929CE28224F15CB0080ACE3 /* AppDelegate.swift */,
 				F929CE2A224F15CB0080ACE3 /* ViewController.swift */,
 				F929CE2C224F15CB0080ACE3 /* Main.storyboard */,
+				F9E1BC42224F8A7700DB0B0C /* SignUPViewController.swift */,
 				F929CE2F224F15CE0080ACE3 /* Assets.xcassets */,
 				F929CE31224F15CE0080ACE3 /* LaunchScreen.storyboard */,
 				F929CE34224F15CE0080ACE3 /* Info.plist */,
+				F903D947224F3FDB0082B7E9 /* GoogleService-Info.plist */,
 			);
 			path = EcoDrop;
 			sourceTree = "<group>";
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F929CE37224F15CE0080ACE3 /* Build configuration list for PBXNativeTarget "EcoDrop" */;
 			buildPhases = (
+				5DCCFB1A9478551404B63B27 /* [CP] Check Pods Manifest.lock */,
 				F929CE21224F15CB0080ACE3 /* Sources */,
 				F929CE22224F15CB0080ACE3 /* Frameworks */,
 				F929CE23224F15CB0080ACE3 /* Resources */,
+				105E947928CF4CD567A6EA13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F929CE33224F15CE0080ACE3 /* LaunchScreen.storyboard in Resources */,
+				F903D948224F3FDC0082B7E9 /* GoogleService-Info.plist in Resources */,
 				F929CE30224F15CE0080ACE3 /* Assets.xcassets in Resources */,
 				F929CE2E224F15CB0080ACE3 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +166,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		105E947928CF4CD567A6EA13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EcoDrop/Pods-EcoDrop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoDrop/Pods-EcoDrop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DCCFB1A9478551404B63B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoDrop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F929CE21224F15CB0080ACE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F929CE2B224F15CB0080ACE3 /* ViewController.swift in Sources */,
+				F9EF9B46224FFCF10084DA39 /* StartViewController.swift in Sources */,
+				F9E1BC43224F8A7700DB0B0C /* SignUPViewController.swift in Sources */,
 				F929CE29224F15CB0080ACE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +369,7 @@
 		};
 		F929CE38224F15CE0080ACE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629443D072579E549FB5C3C0 /* Pods-EcoDrop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +388,7 @@
 		};
 		F929CE39224F15CE0080ACE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 470E8CBF724019D221F2C442 /* Pods-EcoDrop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
