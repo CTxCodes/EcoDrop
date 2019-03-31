@@ -115,14 +115,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67s-wc-Wbw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67s-wc-Wbw">
                                 <rect key="frame" x="164" y="391" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="back" id="vVT-gj-KSb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Main Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Slg-dO-Xb6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Slg-dO-Xb6">
                                 <rect key="frame" x="147" y="222" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -131,12 +131,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="RpH-iM-jcU" firstAttribute="trailing" secondItem="Slg-dO-Xb6" secondAttribute="trailing" constant="148" id="9tx-f2-KgL"/>
                             <constraint firstItem="Slg-dO-Xb6" firstAttribute="leading" secondItem="RpH-iM-jcU" secondAttribute="leading" constant="147" id="9xR-dZ-Y9U"/>
-                            <constraint firstItem="67s-wc-Wbw" firstAttribute="top" secondItem="RpH-iM-jcU" secondAttribute="top" constant="391" id="AHk-yb-GyB"/>
                             <constraint firstItem="Slg-dO-Xb6" firstAttribute="top" secondItem="RpH-iM-jcU" secondAttribute="top" constant="222" id="Rhp-qd-H5y"/>
-                            <constraint firstItem="67s-wc-Wbw" firstAttribute="centerX" secondItem="0AF-Gb-Lwd" secondAttribute="centerX" id="S8Z-my-ITz"/>
+                            <constraint firstItem="RpH-iM-jcU" firstAttribute="trailing" secondItem="67s-wc-Wbw" secondAttribute="trailing" constant="165" id="SGg-Vo-9JV"/>
                             <constraint firstItem="67s-wc-Wbw" firstAttribute="leading" secondItem="RpH-iM-jcU" secondAttribute="leading" constant="164" id="g0K-Re-Phx"/>
-                            <constraint firstItem="Slg-dO-Xb6" firstAttribute="centerX" secondItem="67s-wc-Wbw" secondAttribute="centerX" id="uat-r3-NGz"/>
+                            <constraint firstItem="RpH-iM-jcU" firstAttribute="bottom" secondItem="67s-wc-Wbw" secondAttribute="bottom" constant="182" id="mSI-HD-oKm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RpH-iM-jcU"/>
                     </view>

@@ -34,6 +34,25 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func loginBtn(_ sender: Any) {
+        if emailTextField.text! == "" || passwordTextField.text! == "" {
+            let alertController = UIAlertController(title: "Error", message: "Please enter your email and password", preferredStyle: .alert)
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            
+            alertController.addAction(defaultAction)
+            self.present(alertController, animated: true, completion: nil)
+            
+        }else {
+        
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+            if error == nil{
+                print("log in succesfull")
+                }
+            }
+        }
+    }
+}
+        
+        /*
         
         if ((self.emailTextField.text != nil) || (self.passwordTextField.text != nil)){
         
@@ -54,8 +73,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 
                 alertController.addAction(defaultAction)
                 self.present(alertController, animated: true, completion: nil)
+ 
             }
+ 
             }
+ 
         }
-    }
-}
+ */
